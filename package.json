@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/EJSRobinson/ME40321-database/issues"
   },
-  "homepage": "https://github.com/EJSRobinson/ME40321-database#readme"
+  "homepage": "https://github.com/EJSRobinson/ME40321-database#readme",
+  "type": "module"
 }
