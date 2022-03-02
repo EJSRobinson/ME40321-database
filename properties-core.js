@@ -151,12 +151,17 @@ export const props = {
   },
   30: {
     id: 30,
-    name: 'Aerodynamic Damping Moment Coefficient',
-    shortName: 'C2a',
+    name: 'Natural Pitching Frequency',
+    shortName: 'Wn',
   },
   31: {
     id: 31,
-    name: 'Propulsive Damping Moment Coefficient',
-    shortName: 'C2p',
+    name: 'Damping Ratio in Pitch',
+    shortName: 'Zeta',
+  },
+  32: {
+    id: 32,
+    name: 'Pitching Time Period',
+    shortName: 'Tp',
   },
 };
