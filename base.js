@@ -27,4 +27,9 @@ export function getContext() {
   return context;
 }
 
-console.log(getContext());
+export function getAll() {
+  let all = new Map([...getProperties(), ...getContext()]);
+  return all;
+}
+
+console.log(getAll());
