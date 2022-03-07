@@ -19,11 +19,6 @@ export const cont = {
     name: 'Fin Internal Span',
     shortName: 'Si',
   },
-  1004: {
-    id: 1004,
-    name: 'Fin Internal Span',
-    shortName: 'Si',
-  },
   1005: {
     id: 1005,
     name: 'Rocket Diameter',
