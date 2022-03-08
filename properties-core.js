@@ -43,14 +43,14 @@ export const props = {
   },
   6: {
     id: 6,
-    name: 'Lift Slope',
-    shortName: 'Cla',
+    name: 'Normal Slope',
+    shortName: 'Cna',
     type: 'quant',
   },
   7: {
     id: 7,
-    name: 'Drag Slope',
-    shortName: 'Cda',
+    name: 'Tangential Slope',
+    shortName: 'Cta',
     type: 'quant',
   },
   8: {
@@ -214,5 +214,17 @@ export const props = {
     name: 'Aerfoil',
     shortName: 'Arf',
     type: 'qual',
+  },
+  35: {
+    id: 35,
+    name: 'Normal, Force',
+    shortName: 'Fn',
+    type: 'quant',
+  },
+  36: {
+    id: 36,
+    name: 'Tangential Force',
+    shortName: 'Ft',
+    type: 'quant',
   },
 };

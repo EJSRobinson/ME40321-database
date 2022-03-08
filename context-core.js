@@ -7,8 +7,8 @@ export const cont = {
   },
   1001: {
     id: 1001,
-    name: 'Maximum Altitude',
-    shortName: 'AltMax',
+    name: 'Altitude',
+    shortName: 'Alt',
     type: 'quant',
   },
   1002: {
@@ -51,6 +51,18 @@ export const cont = {
     id: 1009,
     name: 'Propulsive Damping Moment Coefficient',
     shortName: 'C2p',
+    type: 'quant',
+  },
+  1010: {
+    id: 1010,
+    name: 'Normal Slope of all non-fin components',
+    shortName: 'CnaComp',
+    type: 'quant',
+  },
+  1011: {
+    id: 1011,
+    name: 'Axial distance all non-fin components (Weighted Average)',
+    shortName: 'Xcomp',
     type: 'quant',
   },
 };
