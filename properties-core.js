@@ -92,7 +92,7 @@ export const props = {
   14: {
     id: 14,
     name: 'Drag Force',
-    shortName: 'Fl',
+    shortName: 'Fd',
     type: 'quant',
   },
   15: {
