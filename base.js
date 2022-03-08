@@ -48,5 +48,3 @@ export function getAll() {
   let all = new Map([...getProperties(), ...getContext()]);
   return all;
 }
-
-console.log(getAll());
