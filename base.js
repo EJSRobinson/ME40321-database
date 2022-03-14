@@ -15,7 +15,7 @@ const valueTypes = {
 };
 
 function getTypeTemplate(type) {
-  return valueTypes[type];
+  return JSON.parse(JSON.stringify(valueTypes[type]));
 }
 
 export function getProperties() {
