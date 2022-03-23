@@ -1,5 +1,6 @@
 import { props } from './properties-core.js';
 import { cont } from './context-core.js';
+import { materials } from './materials-core.js';
 
 //TYPES
 // quant (Simple / Max Min)
@@ -18,6 +19,16 @@ function getTypeTemplate(type) {
   return JSON.parse(JSON.stringify(valueTypes[type]));
 }
 
+function addOptions(properties) {
+  // Materials
+  let materialProp = properties.get('Mat');
+  for (const [material, value] of Object.entries(materials)) {
+    materialProp.value.options.push(material);
+  }
+  properties.set('Mat', materialProp);
+  return properties;
+}
+
 export function getProperties() {
   let properties = new Map();
   for (const [key, value] of Object.entries(props)) {
@@ -28,6 +39,7 @@ export function getProperties() {
       value: getTypeTemplate(value.type),
     });
   }
+  properties = addOptions(properties);
   return properties;
 }
 
