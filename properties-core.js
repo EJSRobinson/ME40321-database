@@ -227,4 +227,10 @@ export const props = {
     shortName: 'Ft',
     type: 'quant',
   },
+  37: {
+    id: 37,
+    name: 'Air Density',
+    shortName: 'RowA',
+    type: 'quant',
+  },
 };
