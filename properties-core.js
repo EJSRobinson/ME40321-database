@@ -43,13 +43,13 @@ export const props = {
   },
   6: {
     id: 6,
-    name: 'Normal Slope',
+    name: 'Normal Slope (Single Fin)',
     shortName: 'Cna',
     type: 'quant',
   },
   7: {
     id: 7,
-    name: 'Tangential Slope',
+    name: 'Tangential Slope (Single Fin)',
     shortName: 'Cta',
     type: 'quant',
   },
@@ -231,6 +231,18 @@ export const props = {
     id: 37,
     name: 'Air Density',
     shortName: 'RowA',
+    type: 'quant',
+  },
+  38: {
+    id: 38,
+    name: 'Normal Slope (Single Fin)',
+    shortName: 'CnaTot',
+    type: 'quant',
+  },
+  39: {
+    id: 39,
+    name: 'Tangential Slope (Single Fin)',
+    shortName: 'CtaTot',
     type: 'quant',
   },
 };
