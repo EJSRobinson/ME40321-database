@@ -37,6 +37,7 @@ export function getProperties() {
       name: value.name,
       shortName: value.shortName,
       value: getTypeTemplate(value.type),
+      hard: false,
     });
   }
   properties = addOptions(properties);
@@ -51,6 +52,7 @@ export function getContext() {
       name: value.name,
       shortName: value.shortName,
       value: getTypeTemplate(value.type),
+      hard: true,
     });
   }
   return context;
