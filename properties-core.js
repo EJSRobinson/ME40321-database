@@ -201,8 +201,8 @@ export const props = {
     shortName: 'LEsw',
     type: 'quant',
     limits: {
-      min: -Math.PI / 2,
-      max: Math.PI / 2,
+      min: 0,
+      max: (75 * Math.PI) / 180,
     },
   },
   22: {
@@ -211,8 +211,8 @@ export const props = {
     shortName: 'TEsw',
     type: 'quant',
     limits: {
-      min: -Math.PI / 2,
-      max: Math.PI / 2,
+      min: 0,
+      max: (75 * Math.PI) / 180,
     },
   },
   23: {
