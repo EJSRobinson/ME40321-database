@@ -37,6 +37,7 @@ export function getProperties() {
       name: value.name,
       shortName: value.shortName,
       value: getTypeTemplate(value.type),
+      limits: value.limits,
       hard: {
         max: false,
         min: false,
@@ -55,6 +56,7 @@ export function getContext() {
       name: value.name,
       shortName: value.shortName,
       value: getTypeTemplate(value.type),
+      limits: value.limits,
       hard: {
         max: true,
         min: true,
