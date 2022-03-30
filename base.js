@@ -1,6 +1,7 @@
 import { props } from './properties-core.js';
 import { cont } from './context-core.js';
 import { materials } from './materials-core.js';
+import { aerofoils } from './aerofoils-core.js';
 
 //TYPES
 // quant (Simple / Max Min)
@@ -42,6 +43,13 @@ function addOptions(properties) {
     materialProp.value.options.push(material);
   }
   properties.set('Mat', materialProp);
+  // Aerofoils
+  let ArfProp = properties.get('Arf');
+  for (const [aerofoil, value] of Object.entries(aerofoils)) {
+    ArfProp.value.options.push(aerofoil);
+  }
+  properties.set('Arf', ArfProp);
+
   return properties;
 }
 
