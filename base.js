@@ -19,6 +19,22 @@ function getTypeTemplate(type) {
   return JSON.parse(JSON.stringify(valueTypes[type]));
 }
 
+function getFixedTemplate(type, set) {
+  switch (type) {
+    case 'quant':
+    case 'range':
+      return {
+        max: set,
+        min: set,
+      };
+    case 'list':
+    case 'qual':
+      return {
+        val: set,
+      };
+  }
+}
+
 function addOptions(properties) {
   // Materials
   let materialProp = properties.get('Mat');
@@ -38,10 +54,7 @@ export function getProperties() {
       shortName: value.shortName,
       value: getTypeTemplate(value.type),
       limits: value.limits,
-      hard: {
-        max: false,
-        min: false,
-      },
+      fixed: getFixedTemplate(value.type, false),
     });
   }
   properties = addOptions(properties);
@@ -57,10 +70,7 @@ export function getContext() {
       shortName: value.shortName,
       value: getTypeTemplate(value.type),
       limits: value.limits,
-      hard: {
-        max: true,
-        min: true,
-      },
+      fixed: getFixedTemplate(value.type, true),
     });
   }
   return context;
