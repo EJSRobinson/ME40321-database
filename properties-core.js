@@ -361,4 +361,22 @@ export const props = {
       min: 0,
     },
   },
+  40: {
+    id: 40,
+    name: 'Mean Aerodynamic Chord Length',
+    shortName: 'Cbar',
+    type: 'quant',
+    limits: {
+      min: 0,
+    },
+  },
+  41: {
+    id: 41,
+    name: 'Mid-Chord Sweep Angle',
+    shortName: 'Msw',
+    type: 'quant',
+    limits: {
+      min: 0,
+    },
+  },
 };
