@@ -11,7 +11,7 @@ export const props = {
     shortName: 'ct',
     type: 'quant',
     limits: {
-      min: 0,
+      min: 0.005,
     },
   },
   1: {
@@ -20,7 +20,7 @@ export const props = {
     shortName: 'cr',
     type: 'quant',
     limits: {
-      min: 0,
+      min: 0.005,
     },
   },
   2: {
@@ -29,7 +29,7 @@ export const props = {
     shortName: 'S',
     type: 'quant',
     limits: {
-      min: 0,
+      min: 0.005,
     },
   },
   3: {
@@ -65,16 +65,7 @@ export const props = {
     shortName: 'Cna',
     type: 'quant',
     limits: {
-      min: 0,
-    },
-  },
-  7: {
-    id: 7,
-    name: 'Tangential Slope (Single Fin)',
-    shortName: 'Cta',
-    type: 'quant',
-    limits: {
-      min: 0,
+      min: 0.0001,
     },
   },
   8: {
@@ -347,15 +338,6 @@ export const props = {
     id: 38,
     name: 'Normal Slope (Single Fin)',
     shortName: 'CnaTot',
-    type: 'quant',
-    limits: {
-      min: 0,
-    },
-  },
-  39: {
-    id: 39,
-    name: 'Tangential Slope (Single Fin)',
-    shortName: 'CtaTot',
     type: 'quant',
     limits: {
       min: 0,
