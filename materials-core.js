@@ -3,5 +3,6 @@
 export const materials = {
   aluminium: {
     density: 2700,
+    surfaceRoughness: 5 * 10 ** -6,
   },
 };
