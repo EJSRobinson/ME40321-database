@@ -65,7 +65,7 @@ export const props = {
     shortName: 'Cna',
     type: 'quant',
     limits: {
-      min: 0.0001,
+      min: 0.00000001,
     },
   },
   8: {
