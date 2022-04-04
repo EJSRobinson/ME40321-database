@@ -85,6 +85,8 @@ export function getContext() {
 }
 
 export function getAll() {
-  let all = new Map([...getProperties(), ...getContext()]);
-  return all;
+  return new Promise(async (resolve, reject) => {
+    let all = new Map([...getProperties(), ...getContext()]);
+    resolve(all);
+  });
 }
