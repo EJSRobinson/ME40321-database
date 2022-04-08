@@ -427,6 +427,10 @@ export const props = {
     shortName: 'Mat',
     type: 'list',
     limits: {},
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   34: {
     id: 34,
@@ -434,6 +438,10 @@ export const props = {
     shortName: 'Arf',
     type: 'list',
     limits: {},
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   35: {
     id: 35,
