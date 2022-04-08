@@ -13,6 +13,10 @@ export const props = {
     limits: {
       min: 0.005,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   1: {
     id: 1,
@@ -21,6 +25,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0.005,
+    },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
     },
   },
   2: {
@@ -31,6 +39,10 @@ export const props = {
     limits: {
       min: 0.005,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   3: {
     id: 3,
@@ -39,6 +51,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
     },
   },
   4: {
@@ -49,6 +65,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   5: {
     id: 5,
@@ -57,6 +77,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'mm²',
+      siMultiplier: 1000 ** 2,
     },
   },
   6: {
@@ -67,6 +91,10 @@ export const props = {
     limits: {
       min: 0.00000001,
     },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   8: {
     id: 8,
@@ -74,8 +102,12 @@ export const props = {
     shortName: 'AoA',
     type: 'quant',
     limits: {
-      max: 30,
+      max: (30 * Math.PI) / 180,
       min: 0,
+    },
+    units: {
+      displayUnits: '°',
+      siMultiplier: 180 / Math.PI,
     },
   },
   9: {
@@ -86,6 +118,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   10: {
     id: 10,
@@ -94,6 +130,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
     },
   },
   11: {
@@ -104,6 +144,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   12: {
     id: 12,
@@ -112,6 +156,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
     },
   },
   13: {
@@ -122,6 +170,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'N',
+      siMultiplier: 1,
+    },
   },
   14: {
     id: 14,
@@ -130,6 +182,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'N',
+      siMultiplier: 1,
     },
   },
   15: {
@@ -140,6 +196,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'KPa',
+      siMultiplier: 1 / 1000,
+    },
   },
   16: {
     id: 16,
@@ -148,6 +208,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
     },
   },
   17: {
@@ -158,6 +222,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   18: {
     id: 18,
@@ -166,6 +234,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'kg',
+      siMultiplier: 1,
     },
   },
   19: {
@@ -176,6 +248,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'kg',
+      siMultiplier: 1,
+    },
   },
   20: {
     id: 20,
@@ -184,6 +260,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 3,
+    },
+    units: {
+      displayUnits: 'Fins',
+      siMultiplier: 1,
     },
   },
   21: {
@@ -195,6 +275,10 @@ export const props = {
       min: 0,
       max: (75 * Math.PI) / 180,
     },
+    units: {
+      displayUnits: '°',
+      siMultiplier: 180 / Math.PI,
+    },
   },
   22: {
     id: 22,
@@ -205,6 +289,10 @@ export const props = {
       min: 0,
       max: (75 * Math.PI) / 180,
     },
+    units: {
+      displayUnits: '°',
+      siMultiplier: 180 / Math.PI,
+    },
   },
   23: {
     id: 23,
@@ -214,6 +302,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   24: {
     id: 24,
@@ -222,6 +314,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'Cal',
+      siMultiplier: 1,
     },
   },
   25: {
@@ -233,6 +329,10 @@ export const props = {
       min: 0,
       max: 1,
     },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   26: {
     id: 26,
@@ -241,6 +341,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'm/s',
+      siMultiplier: 1,
     },
   },
   27: {
@@ -251,6 +355,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'm/s',
+      siMultiplier: 1,
+    },
   },
   28: {
     id: 28,
@@ -260,6 +368,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'm/s',
+      siMultiplier: 1,
+    },
   },
   29: {
     id: 29,
@@ -267,6 +379,10 @@ export const props = {
     shortName: 'C1',
     type: 'quant',
     limits: {},
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   30: {
     id: 30,
@@ -276,6 +392,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'rad/s',
+      siMultiplier: 1,
+    },
   },
   31: {
     id: 31,
@@ -283,6 +403,10 @@ export const props = {
     shortName: 'Zeta',
     type: 'quant',
     limits: {},
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   32: {
     id: 32,
@@ -291,6 +415,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 's',
+      siMultiplier: 1,
     },
   },
   33: {
@@ -315,6 +443,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'N',
+      siMultiplier: 1,
+    },
   },
   36: {
     id: 36,
@@ -323,6 +455,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'N',
+      siMultiplier: 1,
     },
   },
   37: {
@@ -333,6 +469,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'kg/m³',
+      siMultiplier: 1,
+    },
   },
   38: {
     id: 38,
@@ -341,6 +481,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
     },
   },
   40: {
@@ -351,6 +495,10 @@ export const props = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   41: {
     id: 41,
@@ -359,6 +507,10 @@ export const props = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: '°',
+      siMultiplier: 180 / Math.PI,
     },
   },
 };
