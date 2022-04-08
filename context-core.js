@@ -11,6 +11,7 @@ export const cont = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Context',
   },
   1001: {
     id: 1001,
@@ -24,6 +25,7 @@ export const cont = {
       displayUnits: 'm',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   1002: {
     id: 1002,
@@ -38,6 +40,7 @@ export const cont = {
       displayUnits: '°K',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   1003: {
     id: 1003,
@@ -51,6 +54,7 @@ export const cont = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Context',
   },
   1005: {
     id: 1005,
@@ -64,6 +68,7 @@ export const cont = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Context',
   },
   1006: {
     id: 1006,
@@ -77,6 +82,7 @@ export const cont = {
       displayUnits: 'mm²',
       siMultiplier: 1000 ** 2,
     },
+    group: 'Context',
   },
   1007: {
     id: 1007,
@@ -90,6 +96,7 @@ export const cont = {
       displayUnits: 'kgm²',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   1008: {
     id: 1008,
@@ -101,6 +108,7 @@ export const cont = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   1009: {
     id: 1009,
@@ -112,6 +120,7 @@ export const cont = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   1010: {
     id: 1010,
@@ -125,6 +134,7 @@ export const cont = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   1011: {
     id: 1011,
@@ -138,5 +148,6 @@ export const cont = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Context',
   },
 };

@@ -17,6 +17,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Geometry',
   },
   1: {
     id: 1,
@@ -30,6 +31,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Geometry',
   },
   2: {
     id: 2,
@@ -43,6 +45,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Geometry',
   },
   3: {
     id: 3,
@@ -56,6 +59,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Geometry',
   },
   4: {
     id: 4,
@@ -69,6 +73,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Geometry',
   },
   5: {
     id: 5,
@@ -82,6 +87,7 @@ export const props = {
       displayUnits: 'mm²',
       siMultiplier: 1000 ** 2,
     },
+    group: 'Geometry',
   },
   6: {
     id: 6,
@@ -95,6 +101,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   8: {
     id: 8,
@@ -109,6 +116,7 @@ export const props = {
       displayUnits: '°',
       siMultiplier: 180 / Math.PI,
     },
+    group: 'Context',
   },
   9: {
     id: 9,
@@ -122,6 +130,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   10: {
     id: 10,
@@ -135,6 +144,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   11: {
     id: 11,
@@ -148,6 +158,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   12: {
     id: 12,
@@ -161,6 +172,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   13: {
     id: 13,
@@ -174,6 +186,7 @@ export const props = {
       displayUnits: 'N',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   14: {
     id: 14,
@@ -187,6 +200,7 @@ export const props = {
       displayUnits: 'N',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   15: {
     id: 15,
@@ -200,6 +214,7 @@ export const props = {
       displayUnits: 'KPa',
       siMultiplier: 1 / 1000,
     },
+    group: 'Structural',
   },
   16: {
     id: 16,
@@ -213,6 +228,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Geometry',
   },
   17: {
     id: 17,
@@ -226,6 +242,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Structural',
   },
   18: {
     id: 18,
@@ -239,6 +256,7 @@ export const props = {
       displayUnits: 'kg',
       siMultiplier: 1,
     },
+    group: 'Misc.',
   },
   19: {
     id: 19,
@@ -252,6 +270,7 @@ export const props = {
       displayUnits: 'kg',
       siMultiplier: 1,
     },
+    group: 'Misc.',
   },
   20: {
     id: 20,
@@ -265,6 +284,7 @@ export const props = {
       displayUnits: 'Fins',
       siMultiplier: 1,
     },
+    group: 'Misc.',
   },
   21: {
     id: 21,
@@ -279,6 +299,7 @@ export const props = {
       displayUnits: '°',
       siMultiplier: 180 / Math.PI,
     },
+    group: 'Geometry',
   },
   22: {
     id: 22,
@@ -293,6 +314,7 @@ export const props = {
       displayUnits: '°',
       siMultiplier: 180 / Math.PI,
     },
+    group: 'Geometry',
   },
   23: {
     id: 23,
@@ -306,6 +328,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Context',
   },
   24: {
     id: 24,
@@ -319,6 +342,7 @@ export const props = {
       displayUnits: 'Cal',
       siMultiplier: 1,
     },
+    group: 'Misc.',
   },
   25: {
     id: 25,
@@ -333,6 +357,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   26: {
     id: 26,
@@ -346,6 +371,7 @@ export const props = {
       displayUnits: 'm/s',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   27: {
     id: 27,
@@ -359,6 +385,7 @@ export const props = {
       displayUnits: 'm/s',
       siMultiplier: 1,
     },
+    group: 'Structural',
   },
   28: {
     id: 28,
@@ -372,6 +399,7 @@ export const props = {
       displayUnits: 'm/s',
       siMultiplier: 1,
     },
+    group: 'Structural',
   },
   29: {
     id: 29,
@@ -383,6 +411,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Dynamics',
   },
   30: {
     id: 30,
@@ -396,6 +425,7 @@ export const props = {
       displayUnits: 'rad/s',
       siMultiplier: 1,
     },
+    group: 'Dynamics',
   },
   31: {
     id: 31,
@@ -407,6 +437,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Dynamics',
   },
   32: {
     id: 32,
@@ -420,6 +451,7 @@ export const props = {
       displayUnits: 's',
       siMultiplier: 1,
     },
+    group: 'Dynamics',
   },
   33: {
     id: 33,
@@ -431,6 +463,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Misc.',
   },
   34: {
     id: 34,
@@ -442,6 +475,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Geometry',
   },
   35: {
     id: 35,
@@ -455,6 +489,7 @@ export const props = {
       displayUnits: 'N',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   36: {
     id: 36,
@@ -468,6 +503,7 @@ export const props = {
       displayUnits: 'N',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   37: {
     id: 37,
@@ -481,6 +517,7 @@ export const props = {
       displayUnits: 'kg/m³',
       siMultiplier: 1,
     },
+    group: 'Context',
   },
   38: {
     id: 38,
@@ -494,6 +531,7 @@ export const props = {
       displayUnits: '',
       siMultiplier: 1,
     },
+    group: 'Forces',
   },
   40: {
     id: 40,
@@ -507,6 +545,7 @@ export const props = {
       displayUnits: 'mm',
       siMultiplier: 1000,
     },
+    group: 'Geometry',
   },
   41: {
     id: 41,
@@ -520,5 +559,6 @@ export const props = {
       displayUnits: '°',
       siMultiplier: 180 / Math.PI,
     },
+    group: 'Geometry',
   },
 };
