@@ -63,6 +63,7 @@ export function getProperties() {
       value: getTypeTemplate(value.type),
       limits: value.limits,
       fixed: getFixedTemplate(value.type, false),
+      units: value.units,
     });
   }
   properties = addOptions(properties);
@@ -79,6 +80,7 @@ export function getContext() {
       value: getTypeTemplate(value.type),
       limits: value.limits,
       fixed: getFixedTemplate(value.type, true),
+      units: value.units,
     });
   }
   return context;
