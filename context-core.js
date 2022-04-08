@@ -7,6 +7,10 @@ export const cont = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   1001: {
     id: 1001,
@@ -15,6 +19,10 @@ export const cont = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'm',
+      siMultiplier: 1,
     },
   },
   1002: {
@@ -26,6 +34,10 @@ export const cont = {
       min: 253,
       max: 333,
     },
+    units: {
+      displayUnits: '°K',
+      siMultiplier: 1,
+    },
   },
   1003: {
     id: 1003,
@@ -34,6 +46,10 @@ export const cont = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
     },
   },
   1005: {
@@ -44,6 +60,10 @@ export const cont = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
   },
   1006: {
     id: 1006,
@@ -52,6 +72,10 @@ export const cont = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'mm²',
+      siMultiplier: 1000 ** 2,
     },
   },
   1007: {
@@ -62,6 +86,10 @@ export const cont = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: 'kgm²',
+      siMultiplier: 1,
+    },
   },
   1008: {
     id: 1008,
@@ -69,6 +97,10 @@ export const cont = {
     shortName: 'C2a',
     type: 'quant',
     limits: {},
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   1009: {
     id: 1009,
@@ -76,6 +108,10 @@ export const cont = {
     shortName: 'C2p',
     type: 'quant',
     limits: {},
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   1010: {
     id: 1010,
@@ -85,6 +121,10 @@ export const cont = {
     limits: {
       min: 0,
     },
+    units: {
+      displayUnits: '',
+      siMultiplier: 1,
+    },
   },
   1011: {
     id: 1011,
@@ -93,6 +133,10 @@ export const cont = {
     type: 'quant',
     limits: {
       min: 0,
+    },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
     },
   },
 };
