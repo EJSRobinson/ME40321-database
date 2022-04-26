@@ -206,7 +206,7 @@ export const props = {
     id: 15,
     name: 'Maximum Stress',
     shortName: 'Sigma',
-    type: 'range',
+    type: 'quant',
     limits: {
       min: 0,
     },
