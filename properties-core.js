@@ -521,7 +521,7 @@ export const props = {
   },
   38: {
     id: 38,
-    name: 'Normal Slope (Single Fin)',
+    name: 'Normal Slope (Fin Set)',
     shortName: 'CnaTot',
     type: 'quant',
     limits: {
