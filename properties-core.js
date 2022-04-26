@@ -561,4 +561,32 @@ export const props = {
     },
     group: 'Geometry',
   },
+  1005: {
+    id: 1005,
+    name: 'Rocket Diameter',
+    shortName: 'Dref',
+    type: 'quant',
+    limits: {
+      min: 0,
+    },
+    units: {
+      displayUnits: 'mm',
+      siMultiplier: 1000,
+    },
+    group: 'Context',
+  },
+  1006: {
+    id: 1006,
+    name: 'Rocket Reference Area',
+    shortName: 'Aref',
+    type: 'quant',
+    limits: {
+      min: 0,
+    },
+    units: {
+      displayUnits: 'mm²',
+      siMultiplier: 1000 ** 2,
+    },
+    group: 'Context',
+  },
 };
