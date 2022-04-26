@@ -1,6 +1,6 @@
 {
   "name": "me40321-database",
-  "version": "0.0.34",
+  "version": "0.0.35",
   "description": "ME40321 Database Module",
   "main": "base.js",
   "scripts": {
