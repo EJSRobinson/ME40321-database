@@ -5,4 +5,7 @@ export const aerofoils = {
   flatPlateF: {
     displayName: 'Flat Plate with Fillet',
   },
+  NACA_0012: {
+    displayName: 'NACA 0012',
+  },
 };

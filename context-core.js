@@ -110,7 +110,7 @@ export const cont = {
   },
   1011: {
     id: 1011,
-    name: 'Axial distance all non-fin components (Weighted Average)',
+    name: 'Axial distance all non-fin components',
     shortName: 'Xcomp',
     type: 'quant',
     limits: {
