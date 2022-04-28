@@ -72,20 +72,8 @@ export const cont = {
   },
   1008: {
     id: 1008,
-    name: 'Aerodynamic Damping Moment Coefficient',
-    shortName: 'C2a',
-    type: 'quant',
-    limits: {},
-    units: {
-      displayUnits: '',
-      siMultiplier: 1,
-    },
-    group: 'Context',
-  },
-  1009: {
-    id: 1009,
-    name: 'Propulsive Damping Moment Coefficient',
-    shortName: 'C2p',
+    name: 'Damping Moment Coefficient',
+    shortName: 'C2',
     type: 'quant',
     limits: {},
     units: {
